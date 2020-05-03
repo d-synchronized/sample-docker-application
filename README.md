@@ -1,6 +1,7 @@
 # sample-docker-application
 
-This is the source code of the docker image docker pull dishantanand/sampleapi:v1
+This is the source code of the docker image at dishantanand/sampleapi on Dockerhub
+  (Url - https://hub.docker.com/repository/docker/dishantanand/sampleapi)
 
 Step 1 : Git clone sample-docker-application using below command
          
