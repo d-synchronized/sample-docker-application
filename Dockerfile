@@ -4,7 +4,7 @@ FROM node
 RUN mkdir -p /app
 WORKDIR /app
 
-# Install app dependencies
+# Copy simple reques to app directory
 COPY simple-api-request.js /app
 
 EXPOSE 8090
