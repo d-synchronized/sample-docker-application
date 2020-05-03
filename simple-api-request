@@ -1,0 +1,11 @@
+const http = require('http');
+const os = require('os');
+
+http.createServer(function (request, response) {
+   console.log("Received request from " + request.connection.remoteAddress);
+   response.writeHead(200);
+   response.end("This is v1 pod " + os.hostname() + "\n");
+}).listen(8090);
+
+// Console will print the message
+console.log('Server running at http://127.0.0.1:8090/');
