@@ -2,7 +2,9 @@
 
 This is the source code of the docker image docker pull dishantanand/sampleapi:v1
 
-Step 1 : Git clone sample-docker-application
+Step 1 : Git clone sample-docker-application using below command
+         
+         git clone https://github.com/d-synchronized/sample-docker-application.git
 
 Step 2: cd sample-docker-application
 
