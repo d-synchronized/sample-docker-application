@@ -9,7 +9,7 @@ Step 1 : Git clone sample-docker-application using below command
 
 Step 2: cd sample-docker-application
 
-Step 3: docker build sample-application:v1 .
+Step 3: docker build -t sample-application:v1 .
 
 Step 4: docker run -d -p 8090:8090 sample-application:v1
                        OR
